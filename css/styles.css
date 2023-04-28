@@ -53,28 +53,59 @@ body {
 }
 .cruceta{
     background-color: #d8d3db48;
-    height: 6.5em;
-    width: 6.5em;
-    margin-top: 3.7em;
-    margin-left: 3em
+    height: 6.75em;
+    width: 6.75em;
+    margin-top: 3.6em;
+    margin-left: 2.894em
 }
 .cup {
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.514);
     height: 2.11em;
-    width: 2.1em;
+    width: 2.4em;
     margin-left: 2.2em;
     border-radius: 0.4em 0.4em 0 0;
     
 }
 .centro1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(165, 42, 42, 0.562);
-    height: 84%;
+    height: 27.7em;
     width: 48.5em;
-    margin-top: 0.5em;
+    margin-top: 0.15em
+}
+.pantallatop {
+
+}
+.pantalla1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 128, 0, 0.377);
+    height: 27.7em;
+    width: 48.5em;
+    border-radius: 1em;
+}
+.pantalla2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: solid 0.5em black;
+    height: 24.25em;
+    width: 42.33em;
+    
+}
+.pantalla3 {
+    background-color: rgba(255, 255, 255, 0.425);
+    height: 23.15em;
+    width: 41.1em;
+    
 }
 .derecha1 {
-    height: 84%;
-    width: 11.188em;
+    height: 30.3em;
+    width: 11.3em;
     margin-top: 0.5em;
     background-color: #4c5d9a63;
     border-radius: 0 7.6em 7.3em 0;
