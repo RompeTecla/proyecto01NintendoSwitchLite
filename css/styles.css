@@ -1,36 +1,36 @@
 /* *{box-sizing: border-box;} */
 
 body {
-    margin:0;
+    margin: 0;
     height: 100vh;
     width: 100vw;
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 .fondo {
     background-color: brown;
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     height: 100%;
     width: 100%;
 }
-    .fondo2 {
-        background-image: url(../img/Boceto\ Divs.png);
-        background-repeat: no-repeat;
-        background-position: 50%;
-        display:flex;
-        justify-content: center;
-        align-items: center; 
-        height: 100%;
-        width: 100%;
+.fondo2 {
+    background-image: url(../img/Boceto\ Divs.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
-.izquierda1 {
+.izquierda {
     height: 30.3em;
     width: 11.3em;
     margin-top: 0.5em;
-    background-color: #4c5d9a86;
+    background-color: #495fa875;
     border-radius: 7.5em 0 0 7.15em;
 }
 .mandoi1 {
@@ -49,40 +49,137 @@ body {
     width: 5.1em;
     margin-top: 2.5em;
     margin-left: 3.7em;
-    border-radius: 100em
+    border-radius: 100em;
+    box-sizing: border-box;
+    border: #7d7d7d solid 0.08em;
+    box-shadow: 1px 7px 19px 2px rgba(0,0,0,0.75);
 }
-.cruceta{
-    background-color: #d8d3db48;
-    height: 6.75em;
-    width: 6.75em;
-    margin-top: 3.6em;
-    margin-left: 2.894em
+.cruceta {
+    /* background-color: #d8d3db48; */
+    height: 6.9em;
+    width: 6.82em;
+    margin-top: 3.5em;
+    margin-left: 2.89em;
+    position: absolute;
+}
+.cleft {
+    position: relative;
+    z-index: 2;
+    background-color: #d5d5d5;
+    display: flex;
+    height: 2.4em;
+    width: 2.2em;
+    margin-top: 2.3em;
+    margin-left: 0.05em;
+    border-radius: 0.4em 0 0 0.4em;
+    box-sizing: border-box;
+    border-top: 0.2em solid #02050a;
+    border-bottom: 0.2em solid #02050a;
+    border-left: 0.2em solid #02050a;
 }
 .cup {
-    background-color: rgba(0, 128, 0, 0.514);
-    height: 2.11em;
+    position: relative;
+    z-index: 2;
+    background-color: #d5d5d5;
+    height: 2.2em;
     width: 2.4em;
-    margin-left: 2.2em;
+    margin-left: 2.23em;
+    margin-top: -4.6em;
     border-radius: 0.4em 0.4em 0 0;
-    
+    box-sizing: border-box;
+    border-top: 0.2em solid #02050a;
+    border-left: 0.2em solid #02050a;
+    border-right: 0.2em solid #02050a;
 }
-.centro1 {
+.ccenter {
+    position: relative;
+    z-index: 1;
+    background-color: #d5d5d5;
+    border: solid 0.2em #02050a;
+    display: flex;
+    height: 2.55em;
+    width: 2.55em;
+    border-radius: 0.7em;
+    margin-top: -0.26em;
+    margin-left: 2em;
+}
+.cright {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    background-color: #d5d5d5;
+    height: 2.4em;
+    width: 2.2em;
+    margin-top: -4.63em;
+    margin-left: 4.65em;
+    border-radius: 0 0.4em 0.4em 0;
+    box-sizing: border-box;
+    border-top: 0.2em solid #02050a;
+    border-right: 0.2em solid #02050a;
+    border-bottom: 0.2em solid #02050a;
+}
+.cbottom {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    background-color: #d5d5d5;
+    height: 2.2em;
+    width: 2.4em;
+    margin-top: -0.22em;
+    margin-left: 2.25em;
+    border-radius: 0 0 0.4em 0.4em;
+    box-sizing: border-box;
+    border-right: 0.2em solid #02050a;
+    border-bottom: 0.2em solid #02050a;
+    border-left: 0.2em solid #02050a;
+}
+.botoncuadrado{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(165, 42, 42, 0.562);
-    height: 27.7em;
-    width: 48.5em;
-    margin-top: 0.15em
+    background-color: #dbdbdb;
+    height: 2.25em;
+    width: 2.25em;
+    margin-top: 12.9em;
+    margin-left: 8.1em;
+    border-radius: 0.35em;
+    border: #02050aaf solid 0.16em;
+    box-sizing: border-box;
 }
-.pantallatop {
+.circulo1 {
+    background-color: #dbdbdb;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 1.5em;
+    box-shadow: inset 0em 0.1em 0em 0.03em #9d9d9f;
 
 }
-.pantalla1 {
+.centro {
+    background-color: #495fa875;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 128, 0, 0.377);
+    height: 30.2em;
+    width: 48.5em;
+    margin-top: 0.5em;
+}
+.pantalla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #495fa875;
+    height: 27.7em;
+    width: 48.5em;
+    margin-top: -0.2em;
+    border-radius: 1em;
+}
+.pantallatop {
+}
+.cristal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #495fa875;
     height: 27.7em;
     width: 48.5em;
     border-radius: 1em;
@@ -94,19 +191,17 @@ body {
     box-sizing: border-box;
     border: solid 0.5em black;
     height: 24.25em;
-    width: 42.33em;
-    
+    width: 42.2em;
 }
 .pantalla3 {
-    background-color: rgba(255, 255, 255, 0.425);
+    background-color: rgb(255, 255, 255);
     height: 23.15em;
     width: 41.1em;
-    
 }
-.derecha1 {
+.derecha {
     height: 30.3em;
     width: 11.3em;
     margin-top: 0.5em;
-    background-color: #4c5d9a63;
+    background-color: #495fa875;
     border-radius: 0 7.6em 7.3em 0;
 }

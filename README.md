@@ -4,4 +4,5 @@
 #####2. Historia de la videoconsola.
 #####3. Que tecnologias has usado (iconos mejor que texto)
 #####4. Explicacion del proceso.
-#####5. Funcionamientos.
+#####5. Funcionamiento
+___>><<¥¥¥>>
