@@ -44,15 +44,26 @@ body {
   border: #3333337e solid 0.16em;
 }
 .istick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #d3d3d3;
   height: 5.2em;
   width: 5.1em;
   margin-top: 2.27em;
   margin-left: 3.7em;
   border-radius: 100em;
-  box-sizing: border-box;
-  border: #7d7d7d solid 0.08em;
+  border: #182656 solid 0.2em;
   box-shadow: 0.16em 1.05em 1.5em 0.32em rgba(0, 0, 0, 0.5);
+}
+.joystickimg1 {
+  background-image: url(../img/joysticnsl.png);
+  background-repeat: no-repeat;
+  background-size: 5em;
+  height: 5.2em;
+  width: 5.1em;
+  margin-top: 0.2em;
+  margin-right: 0.1em;
 }
 .cruceta {
   height: 6.9em;
@@ -62,6 +73,9 @@ body {
   position: absolute;
 }
 .cleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 6;
   background-color: #d5d5d5;
@@ -76,7 +90,14 @@ body {
   border-bottom: 0.2em solid #02050a;
   border-left: 0.2em solid #02050a;
 }
+.flecha1 {
+  font-size: 1.25em;
+  color: #b6b6b6;
+}
 .cup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 6;
   background-color: #d5d5d5;
@@ -90,6 +111,11 @@ body {
   border-left: 0.2em solid #02050a;
   border-right: 0.2em solid #02050a;
 }
+.flecha2 {
+  font-size: 1.25em;
+  color: #b6b6b6;
+  margin-bottom: 0.2em;
+}
 .ccenter {
   position: relative;
   z-index: 4;
@@ -102,7 +128,32 @@ body {
   margin-top: -0.26em;
   margin-left: 2em;
 }
+.cbottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 6;
+  display: flex;
+  background-color: #d5d5d5;
+  height: 2.2em;
+  width: 2.4em;
+  margin-top: -0.25em;
+  margin-left: 2.25em;
+  border-radius: 0 0 0.4em 0.4em;
+  box-sizing: border-box;
+  border-right: 0.2em solid #02050a;
+  border-bottom: 0.2em solid #02050a;
+  border-left: 0.2em solid #02050a;
+}
+.flecha3 {
+  font-size: 1.25em;
+  color: #b6b6b6;
+}
 .cright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   z-index: 6;
   display: flex;
@@ -117,20 +168,10 @@ body {
   border-right: 0.2em solid #02050a;
   border-bottom: 0.2em solid #02050a;
 }
-.cbottom {
-  position: relative;
-  z-index: 6;
-  display: flex;
-  background-color: #d5d5d5;
-  height: 2.2em;
-  width: 2.4em;
-  margin-top: -0.25em;
-  margin-left: 2.25em;
-  border-radius: 0 0 0.4em 0.4em;
-  box-sizing: border-box;
-  border-right: 0.2em solid #02050a;
-  border-bottom: 0.2em solid #02050a;
-  border-left: 0.2em solid #02050a;
+.flecha4 {
+  font-size: 1.25em;
+  color: #b6b6b6;
+  margin-left: 0.2em;
 }
 .botoncuadrado {
   display: flex;
@@ -176,6 +217,15 @@ body {
   box-shadow: inset 0px 0px 5px 2px rgba(222, 222, 222, 0.5);
 }
 .pantallatop {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  background-color: #5462a6;
+  height: 0.25em;
+  width: 51.6em;
+  margin-bottom: 30.5em;
+  border-bottom: #8487c3 solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #dedede;
 }
 .cristal {
   display: flex;
@@ -202,7 +252,7 @@ body {
 }
 .derecha {
   position: relative;
-  z-index: 3;
+  z-index: 6;
   height: 30.3em;
   width: 11.3em;
   margin-top: 0.5em;
@@ -220,7 +270,7 @@ body {
   width: 3em;
   margin-top: 1.9em;
 }
-.vmas {
+.verticalplus {
   display: flex;
   position: relative;
   z-index: 2;
@@ -233,7 +283,7 @@ body {
   border: #02050a 0.01em solid;
   box-shadow: 0em 0.16em 0.84em 0em rgba(0, 0, 0, 0.61);
 }
-.imas {
+.leftplus {
   position: relative;
   z-index: 3;
   background-color: #d2dcde;
@@ -247,7 +297,7 @@ body {
   border-bottom: #02050a 0.01em solid;
   box-shadow: -0.16em 0.16em 0.32em 0em rgba(0, 0, 0, 0.66);
 }
-.dmas {
+.rightplus {
   position: relative;
   z-index: 3;
   background-color: #d2dcde;
@@ -334,15 +384,26 @@ body {
   color: #b5b5b5;
 }
 .dstick {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   background-color: #d3d3d3;
   height: 5.2em;
   width: 5.1em;
   margin-top: 5.65em;
   margin-left: 2.4em;
   border-radius: 100em;
-  box-sizing: border-box;
-  border: #7d7d7d solid 0.08em;
+  border: #182656 solid 0.2em;
   box-shadow: 0.16em 1.05em 1.5em 0.32em rgba(0, 0, 0, 0.5);
+}
+.joystickimg2 {
+  background-image: url(../img/joysticnsl.png);
+  background-repeat: no-repeat;
+  background-size: 5em;
+  height: 5.2em;
+  width: 5.1em;
+  margin-top: 0.1em;
+  margin-right: 0.1em;
 }
 .boxhome {
   background-color: #808088;
