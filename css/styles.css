@@ -1,5 +1,3 @@
-/* *{box-sizing: border-box;} */
-
 body {
     margin: 0;
     height: 100vh;
@@ -33,26 +31,25 @@ body {
     background-color: #495fa875;
     border-radius: 7.5em 0 0 7.15em;
 }
-.mandoi1 {
-}
 .botonmenos {
     background-color: #d8d3db;
     height: 0.5em;
-    width: 1.71em;
+    width: 1.6em;
     margin-top: 3em;
-    margin-left: 8.83em;
-    border-radius: 0.08em;
+    margin-left: 8.78em;
+    border-radius: 0.25em;
+    border: #3333337e solid 0.16em;
 }
 .istick {
     background-color: #f7f4f56c;
     height: 5.2em;
     width: 5.1em;
-    margin-top: 2.5em;
+    margin-top: 2.27em;
     margin-left: 3.7em;
     border-radius: 100em;
     box-sizing: border-box;
     border: #7d7d7d solid 0.08em;
-    box-shadow: 1px 7px 19px 2px rgba(0,0,0,0.75);
+    box-shadow: 0.16em 1.12em 3.04em 0.32em rgba(0,0,0,0.75);
 }
 .cruceta {
     /* background-color: #d8d3db48; */
@@ -125,7 +122,7 @@ body {
     background-color: #d5d5d5;
     height: 2.2em;
     width: 2.4em;
-    margin-top: -0.22em;
+    margin-top: -0.25em;
     margin-left: 2.25em;
     border-radius: 0 0 0.4em 0.4em;
     box-sizing: border-box;
@@ -199,9 +196,124 @@ body {
     width: 41.1em;
 }
 .derecha {
+    position: static;
+    z-index: 1;
     height: 30.3em;
     width: 11.3em;
     margin-top: 0.5em;
     background-color: #495fa875;
     border-radius: 0 7.6em 7.3em 0;
+}
+.mandod1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5d5d57e;
+    height: 3em;
+    width: 3em;
+    margin-top: 1.9em;
+}
+.vmas {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    background-color: #d2dcde;
+    height: 1.75em;
+    width: 0.44em;
+    margin-top: -0.12em;
+    margin-left: 0.7em;
+    border-radius: 0.16em;
+    border: #02050a 0.01em solid;
+    box-shadow: 0em 0.16em 0.84em 0em rgba(0,0,0,0.61);
+}
+.imas {
+    position: relative;
+    z-index: 3;
+    background-color: #d2dcde;
+    height: 0.5em;
+    width: 0.6em;
+    margin-top: -0.12em;
+    margin-left: -1.2em;
+    border-radius: 0.16em 0 0 0.16em;
+    border-left: #02050a 0.01em solid;
+    border-top: #02050a 0.01em solid;
+    border-bottom: #02050a 0.01em solid;
+    box-shadow: -0.16em 0.16em 0.32em 0em rgba(0,0,0,0.66);
+}
+.dmas {
+    position: relative;
+    z-index: 3;
+    background-color: #d2dcde;
+    height: 0.5em;
+    width: 0.6em;
+    margin-top: -0.12em;
+    margin-left: 0.48em;
+    border-radius: 0 0.16em 0.16em 0;
+    border-right: #02050a 0.01em solid;
+    border-top: #02050a 0.01em solid;
+    border-bottom: #02050a 0.01em solid;
+    box-shadow: 0em 0.32em 0.32em -0.16em rgba(0,0,0,0.66);
+}
+.boton-y {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    height: 1.56em;
+    width: 1.56em;
+    background-color: #219f1663;
+    border-radius: 2em;
+    margin-top: 7.388em;
+    margin-left: 0.99em;
+    border: black solid 0.12em;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+.boton-x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 6;
+    height: 2.4em;
+    width: 2.4em;
+    background-color: #219f1663;
+    border-radius: 2em;
+    margin-top: em;
+    margin-left: em;
+    border: black solid 0.12em;
+}
+.boton-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 7;
+    height: 1.56em;
+    width: 1.56em;
+    background-color: #219f1663;
+    border-radius: 2em;
+    margin-top: em;
+    margin-left: em;
+    border: black solid 0.08em;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+.boton-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 8;
+    height: 1.56em;
+    width: 1.56em;
+    background-color: #219f1663;
+    border-radius: 2em;
+    margin-top: -5.1em;
+    margin-left: 4.2em;
+    border: black solid 0.10em;
+    font-family: sans-serif;
+    font-size: 1.5em;
 }
