@@ -37,11 +37,13 @@ body {
 .botonmenos {
   background-color: #d8d3db;
   height: 0.5em;
-  width: 1.6em;
+  width: 1.8em;
   margin-top: 3em;
   margin-left: 8.78em;
   border-radius: 0.25em;
-  border: #3333337e solid 0.16em;
+  border: #182656 solid 0.13em;
+  box-shadow: 0em 0.32em 0.32em -0.16em rgba(0, 0, 0, 0.66);
+
 }
 .istick {
   display: flex;
@@ -89,10 +91,12 @@ body {
   border-top: 0.2em solid #02050a;
   border-bottom: 0.2em solid #02050a;
   border-left: 0.2em solid #02050a;
+  box-shadow: -4px 8px 10px -5px rgba(0,0,0,0.75);
 }
 .flecha1 {
   font-size: 1.25em;
   color: #b6b6b6;
+  user-select: none;
 }
 .cup {
   display: flex;
@@ -115,6 +119,7 @@ body {
   font-size: 1.25em;
   color: #b6b6b6;
   margin-bottom: 0.2em;
+  user-select: none;
 }
 .ccenter {
   position: relative;
@@ -127,6 +132,7 @@ body {
   border-radius: 0.7em;
   margin-top: -0.26em;
   margin-left: 2em;
+  box-shadow: 0px 11px 24px 3px rgba(0,0,0,0.75);
 }
 .cbottom {
   display: flex;
@@ -145,10 +151,12 @@ body {
   border-right: 0.2em solid #02050a;
   border-bottom: 0.2em solid #02050a;
   border-left: 0.2em solid #02050a;
+  box-shadow: 0em 0.32em 0.32em -0.16em rgba(0, 0, 0, 0.66);
 }
 .flecha3 {
   font-size: 1.25em;
   color: #b6b6b6;
+  user-select: none;
 }
 .cright {
   display: flex;
@@ -167,6 +175,7 @@ body {
   border-top: 0.2em solid #02050a;
   border-right: 0.2em solid #02050a;
   border-bottom: 0.2em solid #02050a;
+  box-shadow: 4px 8px 9px -6px rgba(0,0,0,0.75);
 }
 .flecha4 {
   font-size: 1.25em;
@@ -216,16 +225,148 @@ body {
   border-radius: 1em;
   box-shadow: inset 0px 0px 5px 2px rgba(222, 222, 222, 0.5);
 }
-.pantallatop {
+.pantallatop1 {
   box-sizing: border-box;
   position: absolute;
   z-index: 2;
   background-color: #5462a6;
   height: 0.25em;
   width: 51.6em;
+  box-sizing: border-box;
   margin-bottom: 30.5em;
-  border-bottom: #8487c3 solid 0.01em;
-  box-shadow: inset 0px -32px 5px -30px #dedede;
+  border-bottom: #8b8ec7 solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #8284ff;
+  border-radius: 1em 1em 0 0;
+}
+.pantallatop2 {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  background-color: #5a69b4;
+  height: 0.25em;
+  width: 1.1em;
+  border-top: #878abb solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #aea9ff;
+  border-radius: 1em 1em 0 0;
+  margin-bottom: 30.7em;
+  margin-left: -50.4em;
+}
+.pantallatop3{
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  background-color: #5a69b4;
+  height: 0.25em;
+  width: 1.4em;
+  border-top: #878abb solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #aea9ff;
+  border-radius: 1em 1em 0 0;
+  margin-bottom: 30.7em;
+  margin-left: -46.8em;
+}
+.pantallatop4 {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  background-color: #5a69b4;
+  height: 0.25em;
+  width: 1.1em;
+  border-top: #878abb solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #aea9ff;
+  border-radius: 0.2em 1em 0 0;
+  margin-bottom: 30.7em;
+  margin-left: -41.1em;
+}
+.voldown {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  background-color: #5c70d8;
+  height: 0.65em;
+  width: 1.6em;
+  border-top: #878abb solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #aea9ff;
+  border-radius: 0.2em;
+  margin-bottom: 30.7em;
+  margin-left: -38.3em;
+}
+.voldown:active {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  background-color: #5c70d8;
+  height: 0.4em;
+  width: 1.6em;
+  border-top: #878abb solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #aea9ff;
+  border-radius: 0.2em;
+  margin-bottom: 30.7em;
+  margin-left: -38.3em;
+}
+.pantallatop5 {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  background-color: #5a69b4;
+  height: 0.25em;
+  width: 1.7em;
+  border-top: #878abb solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #aea9ff;
+  border-radius: 1em 1em 0 0;
+  margin-bottom: 30.7em;
+  margin-left: -34.9em;
+}
+.volup{
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  background-color: #5c70d8;
+  height: 0.65em;
+  width: 1.6em;
+  border-top: #878abb solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #aea9ff;
+  border-radius: 0.2em;
+  margin-bottom: 30.7em;
+  margin-left: -31.5em;
+}
+.volup:active{
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  background-color: #5c70d8;
+  height: 0.4em;
+  width: 1.6em;
+  border-top: #878abb solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #aea9ff;
+  border-radius: 0.2em;
+  margin-bottom: 30.7em;
+  margin-left: -31.5em;
+}
+.pantallatop6 {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  background-color: #5a69b4;
+  height: 0.25em;
+  width: 38.5em;
+  border-top: #878abb solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #aea9ff;
+  border-radius: 1em 1em 0 0;
+  margin-bottom: 30.7em;
+  margin-left: 8.8em;
+}
+.pantallatop7 {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  background-color: #5a69b4;
+  height: 0.25em;
+  width: 1.4em;
+  border-top: #878abb solid 0.01em;
+  box-shadow: inset 0px -32px 5px -30px #aea9ff;
+  border-radius: 1em 1em 0 0;
+  margin-bottom: 30.7em;
+  margin-left: 50.1em;
 }
 .cristal {
   display: flex;
@@ -235,6 +376,7 @@ body {
   height: 27.7em;
   width: 48.5em;
   border-radius: 1em;
+  
 }
 .pantalla2 {
   display: flex;
@@ -245,7 +387,7 @@ body {
   height: 24.25em;
   width: 42.2em;
 }
-.pantalla3 {
+.lcd {
   background-color: rgb(255, 255, 255);
   height: 23.15em;
   width: 41.1em;
@@ -419,10 +561,10 @@ body {
   background-image: url(../img/boton_home.png);
   background-repeat: no-repeat;
   background-size: 2em;
-  height: 2.7em;
-  width: 2.7em;
-  margin-top: 0.4em;
-  margin-left: 0.344em;
+  height: 3em;
+  width: 3em;
+  margin-top: 0.39em;
+  margin-left: 0.35em;
 }
 .gatilloi {
   position: absolute;
